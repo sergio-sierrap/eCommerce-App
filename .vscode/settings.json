@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/fc961b97-0a4f-4dfe-a783-8be8de3f7a7a/AppServices/subscriptions/fc961b97-0a4f-4dfe-a783-8be8de3f7a7a/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/eCommerce-SergioSierrap",
+    "appService.deploySubpath": "."
+}
