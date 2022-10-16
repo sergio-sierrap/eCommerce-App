@@ -1,11 +1,10 @@
-const { isBoom } = require("@hapi/boom");
-
 function logErrors (err, req, res, next) {
     console.log('logErrors');
     console.error(err);
     next(err);
 }
 
+// eslint-disable-next-line no-unused-vars
 function errorHandler(err, req, res, next){
     console.log('errorHandler');
     res.status(500).json({
@@ -21,6 +20,5 @@ function boomErrorHandler(err, req, res, next){
     } 
         next(err);
 }
-
 
 module.exports = { logErrors, errorHandler, boomErrorHandler }
