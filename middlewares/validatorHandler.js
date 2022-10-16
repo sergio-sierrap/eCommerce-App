@@ -1,4 +1,4 @@
-const boom = ew uiew('@hapi/boom');
+const boom = require('@hapi/boom');
 
 function validatorHandler(schema, property) {
     return (req, res, next) => {
